@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.sticky-navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.collapse-navbar-collapse{
+    justify-content: center;
+}
+.navbar-nav{
+    display: flex;
+    column-gap: 30px;
+    list-style: none;
+    margin:0;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:red;
+    font-size:20px;
+}
+.logo {
+    margin-left: 2px;
+    margin-right: 4px; 
+}
+.heading{
+    color:red;
+    margin-right: 300px;
+    font-size:22px ;
+    font-family: 'Caveat', cursive;
+    color:red;
+}
+.img-container{
+    position: relative;
+    text-align: center;
+    margin-bottom: 0;
+}
+.img-container img{
+    max-width:100%;
+    height:800px ;
+    width:1600px;
+}
+.text-overlay p{
+    position:absolute;
+    top: 18%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    color:antiquewhite;
+    font-size: 48px;
+}
+.orderbutton {
+    margin-top: 20px;
+    position: absolute;
+    top: 30%; 
+    left: 30%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    background: linear-gradient(108.4deg, rgb(253, 44, 56) 3.3%, rgb(176, 2, 12) 98.4%);
+    color: white;
+    padding: 10px 20px;
+    border: solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease,transform 0.3s ease;
+}
+.orderbutton:hover {
+    background: linear-gradient(108.4deg, rgb(176, 2, 12) 3.3%, rgb(253, 44, 56) 98.4%);
+    transform: translateX(-50%) scale(1.1);
+}
+.about-container h2{
+    color:black;
+    text-decoration:underline;
+    text-decoration-color: red;
+    font-size: 50px;
+    text-align: center;
+    
+}
+.about-container{
+     justify-content: center;
+     text-align: center;
+}
+.about-container h6{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+}
+.about-container p{
+    text-align:center;
+    font-size: 33px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'PT Sans', sans-serif;
+   
+}
+.menu-container h2{
+    color:black;
+    text-decoration:underline;
+    text-decoration-color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    gap:30px;
+}
+.card h5{
+    text-align: center;
+    border: 8px solid;
+    border-color:orangered;
+    background: linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
+    margin-left: 45px;
+    margin-right:45px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.card img{
+    border:3px solid;
+    border-radius: 5px;
+}
+.container-2{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    gap:30px;
+}
+.location-container h2{
+    color:black;
+    text-decoration:underline;
+    text-decoration-color: red;
+    font-size: 45px;
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    column-gap: 450px;
+    text-align: center;
+    margin-right:80px;
+    margin-left: 80px;
+}
+.card1{
+    font-size: 20px;
+    justify-content:center;
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+}
+.card-container h6{
+    font-size: 30px;
+    text-decoration:underline;
+    text-decoration-color: red;
+}
+.card2{
+    font-size: 20px;
+    justify-content:center;
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;  
+}
+.contact-container h2{
+    color:black;
+    text-decoration:underline;
+    text-decoration-color: red;
+    font-size: 43px;
+    text-align: center;
+}
+.icons{
+    text-align: center;
+    cursor: pointer;
+    font-size: 40px;
+    gap:25px
+}
+.ordernow{
+    font-size: 30px;
+    background: linear-gradient(108.4deg, rgb(253, 44, 56) 3.3%, rgb(176, 2, 12) 98.4%);
+    color: white;
+    padding: 10px 20px;
+    border: solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease,transform 0.3s ease;
+    margin-left: 44%;
+}
+
+.img-container1{
+    text-align: center;
+    gap: 100px;
+}
+footer{
+    position:relative;
+    background-color:black;
+    color: antiquewhite;
+    text-align: center;
+    width: 100%;
+    padding:10px;
+    margin-top: 0px;
+}
